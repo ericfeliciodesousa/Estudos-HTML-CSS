@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio preload="metadata" controls>
+     <source src="Midia/happy-mistake.mp3" type="audio/mpeg">
+     <p>Seu navegador não suporta o tipo de arquivo MP3</p>
+    </audio>
+    <h1>Reproduzindo vídeos</h1>
+    <h2>Vamos aprender a reproduzir vídeos em HTML.
+    </h2>
+    <ul type="circle">
+      <li><h3>Midia hospedagem local
+      </h3>
+      <p>Exemplo utilizando um vídeo sem direitos autorais:</p>
+    <video width="500" controls>
+        <source src="Midia/Video-Aleatorio-1.m4v" type="video/mp4">
+        <p>Seu navegador não suporta o tipo de arquivo MP4</p>
+    </video>
+    </li>
+       <li><h3>Midia de hospedagem interna</h3>
+        <p>Exemplo utilizando um video do youtube:</p>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </li> 
+    </ul> 
+
+</body>
+</html>
