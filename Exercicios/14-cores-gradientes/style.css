@@ -2,12 +2,41 @@
 body {
   background-image: linear-gradient(to right, white, darkslategray);
 }
+main {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  width: 1000px;
+  padding: 10px;
+  margin: auto;
+}
 h1 {
     background-color: darkslategrey;
     margin: auto;
+    text-align: center;
 }
 h2 {
     background-color: white;
     padding: 10px;
     margin: auto;
+    text-align: center;
+}
+h3 {
+   text-align: center;
+}
+#palmeirasImgPos {
+  position: absolute;
+  left: 640px;
+}
+#corinthiansImgPos {
+  position: absolute;
+  left: 600px;
+}
+#saoPauloImgPos {
+  position: absolute;
+  left: 680px;
+}
+#santosImgPos {
+  position: absolute;
+  left: 720px;
 }
