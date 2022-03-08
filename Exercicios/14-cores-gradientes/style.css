@@ -24,6 +24,22 @@ h2 {
 h3 {
    text-align: center;
 }
+#menuPos {
+   background-color: darkgreen;
+   position: absolute;
+   left: 20px;
+}
+div > p {
+  display:none;  
+  text-align: initial;
+}
+div:hover > p {
+  display: block;
+  color: black;
+  background-color: darkgreen;
+  width: 300px;
+  left: 20px;
+}
 #palmeirasImgPos {
   position: absolute;
   left: 640px;
