@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+}
+
+:root {
+     --color01:#0F0E0E;
+     --color02:#6E6E6E;
+     --color03:#D9D9D9;
+
+     --fonte-principal: Arial, Verdana, Helvetica, sans-serif;
+     --fonte-destaque: ;
+     --fonte-android:'Android';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div#cabecalho{
+    font-family: var(--font01);
+    background-color:var(--color02);
+    color: white;
+    padding: 0% 10% 0% 10%;
+}
+header > h1 {
+    text-align: center;
+}
+header > p {
+    text-align: center;
+}
+ body {
+    background-color: var(--color01);
+    padding: 0% 5% 0% 5%;
+} 
+#corpo {
+    margin:auto;
+    text-align: center;
+    min-width:300px;
+    min-height: 1000px;
+    background-color: var(--color03);
+    padding: 10px;
+}
+main h1{
+    color:black;
+    font-size: x-large;
+    font-family: var(--fonte-android);
+}
+main h2 {
+    color:var(--color02);
+    font-size: larger;
+    font-family: var(--fonte-android);
+}
+aside{
+    text-align: justify;
+    background-color: rgb(199, 199, 199);
+    height: 460px;
+    border-radius: 10px;
+}
+aside > h3{
+    border: #6E6E6E;
+    border-color: #6E6E6E;
+    margin:auto;
+    text-align: justify;;
+}
+footer {
+    text-align: center;
+    background-color:#01E741;
+}
