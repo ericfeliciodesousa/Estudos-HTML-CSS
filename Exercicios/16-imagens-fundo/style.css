@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/areia-wallpaper.jpg);
+}
+div.quadrado {
+    margin: auto;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 210px;
+    height: 210px;
+    background-color: gray;
+}
+div#q1 {
+ background-color: aquamarine;
+}
+div#q2 {
+ background-image: linear-gradient(to bottom, rgb(243, 243, 243), aquamarine);
+}
+div#q3 {
+ background-image: url(imagens/praia-teste.jpg);
+}

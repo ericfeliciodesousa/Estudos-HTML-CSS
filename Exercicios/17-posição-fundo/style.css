@@ -1,0 +1,43 @@
+@charset "UTF-8";
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: auto;
+    min-width: 200px;
+    max-width: 600px;
+    display: block;
+}
+body > h1 {
+    text-align: center;
+    font-size: 2em;
+}
+body > h2 {
+    text-align: center;
+    font-size:1em ;
+}
+div.bloco {
+    background-image: url(imagens/android-chrome-512x512.png);
+    height: 200px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+div#b1 {
+     background-position: left top;
+}
+div#b2 {
+    background-position: left center;
+}
+div#b3 {
+    background-position: center center;
+}
+div#b4 {
+    background-position: right center;
+}
+div#b5 {
+    background-position: right bottom;
+}
