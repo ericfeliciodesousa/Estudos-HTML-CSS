@@ -5,17 +5,29 @@ h1{
 h2{
     text-align: center;
 }
+caption {
+    font-size: 1.2em;
+    background-color: rgb(177, 177, 177);
+}
 table{
     width: 400px;
     border-collapse: collapse;
     margin: auto;
 }
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(122, 122, 122);
+}
 td, th {
     border: solid black;
     padding: 10px;
 }
+tbody > tr:nth-child(2n){
+    background-color: rgb(194, 194, 194);
+}
 thead, tfoot{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(122, 122, 122);
 }
 td.num {
     text-align: right;
